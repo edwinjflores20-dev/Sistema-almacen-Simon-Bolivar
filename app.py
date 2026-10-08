@@ -1,7 +1,30 @@
 from flask import Flask, request, redirect, render_template_string
 from openpyxl import Workbook, load_workbook
 from datetime import date
+from functools import reduce
 import os
+# ============================================================
+# CLASE PRODUCTO - ENCAPSULAMIENTO
+# ============================================================
+class Producto:
+
+    def __init__(self, id_producto, nombre, categoria, stock, minimo):
+        self.id = id_producto
+        self.nombre = nombre
+        self.categoria = categoria
+        self._stock = stock
+        self.minimo = minimo
+    # Getter
+    @property
+    def stock(self):
+        return self._stock
+    # Setter
+    @stock.setter
+    def stock(self, valor):
+        if valor < 0:
+            raise ValueError("El stock no puede ser negativo.")
+
+        self._stock = valor
 
 # ============================================================
 # CONFIGURACIÓN
