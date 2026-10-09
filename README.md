@@ -469,3 +469,20 @@ El sistema verifica los datos antes de registrarlos.
 - No se permiten identificadores de productos duplicados.
 - Las salidas no pueden superar el stock disponible.
 
+## Funcionalidades principales
+
+El Sistema de Gestión de Almacén Hospitalario permite administrar los productos y controlar el inventario.
+
+* Registro de nuevos productos.
+* Consulta de productos registrados.
+* Control de entradas y salidas de productos.
+* Actualización automática del stock.
+* Consulta del historial de movimientos.
+* Identificación de productos con stock crítico.
+* Validación de datos para evitar errores de registro.
+* Almacenamiento de información mediante un archivo Excel.
+
+Estas funcionalidades facilitan el control de los recursos del almacén y ayudan a identificar cuándo es necesario reponer productos.
+
+
+
