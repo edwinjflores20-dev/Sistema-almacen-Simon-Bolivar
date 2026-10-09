@@ -427,3 +427,12 @@ El código fuente del proyecto se encuentra publicado en GitHub para facilitar s
    http://127.0.0.1:5000
 
 El sistema utiliza Flask para la interfaz web y OpenPyXL para gestionar los datos almacenados en Excel.
+
+## Módulos del sistema
+
+- Inicio: muestra un resumen del inventario.
+- Productos: permite consultar los productos registrados.
+- Nuevo producto: permite registrar productos.
+- Movimientos: registra entradas y salidas.
+- Historial: muestra los movimientos registrados.
+- Alertas: identifica productos con stock crítico.
