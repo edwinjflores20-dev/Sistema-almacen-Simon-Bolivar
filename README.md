@@ -458,3 +458,14 @@ La hoja Movimientos contiene:
 
 Se recomienda realizar copias de seguridad periódicas.
 
+## Validaciones del sistema
+
+El sistema verifica los datos antes de registrarlos.
+
+- El identificador del producto debe ser válido.
+- El nombre y la categoría son obligatorios.
+- El stock y el stock mínimo no pueden ser negativos.
+- La cantidad de un movimiento debe ser mayor que cero.
+- No se permiten identificadores de productos duplicados.
+- Las salidas no pueden superar el stock disponible.
+
