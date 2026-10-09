@@ -436,3 +436,25 @@ El sistema utiliza Flask para la interfaz web y OpenPyXL para gestionar los dato
 - Movimientos: registra entradas y salidas.
 - Historial: muestra los movimientos registrados.
 - Alertas: identifica productos con stock crítico.
+
+## Almacenamiento de datos
+
+El sistema utiliza el archivo almacen_hospital.xlsx para guardar la información.
+
+La hoja Productos contiene:
+- ID del producto.
+- Nombre.
+- Categoría.
+- Stock actual.
+- Stock mínimo.
+
+La hoja Movimientos contiene:
+- ID del movimiento.
+- ID del producto.
+- Tipo de movimiento.
+- Cantidad.
+- Fecha.
+- Motivo.
+
+Se recomienda realizar copias de seguridad periódicas.
+
