@@ -411,4 +411,19 @@ Para ejecutar correctamente el proyecto se requiere:
 El código fuente del proyecto se encuentra publicado en GitHub para facilitar su revisión, almacenamiento y control de versiones.
 
 
+## Instalación y ejecución
 
+1. Instalar Python 3.
+2. Instalar las dependencias con el comando:
+
+   pip install flask openpyxl
+
+3. Ejecutar el sistema:
+
+   python app.py
+
+4. Abrir el navegador en:
+
+   http://127.0.0.1:5000
+
+El sistema utiliza Flask para la interfaz web y OpenPyXL para gestionar los datos almacenados en Excel.
